@@ -24,6 +24,7 @@ public class ConvidadosController {
 		modelAndView.addObject(new Convidado());
 		
 		return modelAndView;
+	
 	}
 	
 	@PostMapping("/convidados")
